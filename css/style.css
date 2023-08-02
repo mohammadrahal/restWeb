@@ -6,9 +6,17 @@
 
 section {
     background-color: #cccc;
-    height: 100vh;
+    /* margin: 0 clamp(4rem, 12vw, 20rem); */
+    /* height: 100vh; */
 }
 
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffa500;
+}
 
 img,
 picture {
@@ -16,31 +24,76 @@ picture {
 }
 
 /* title */
-.title{
+.menu-title {
+    font-size: 2rem;
     text-align: center;
+    position: relative;
+    top: 5px;
 }
+
 /* end */
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    position: relative;
-    top: 30px;
-    /* grid-gap: 10px; */
+    grid-template-columns: repeat(2, 0fr);
+    justify-content: center;
 
 }
 
 .card {
     display: flex;
-    margin: 0;
-
+    align-items: center;
+    justify-content: center;
+    /* margin: 0; */
 }
 
 .col-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 5px;
+    display: block;
     background-color: #ffff;
-    padding: 10px;
+    padding: 20px;
+    width: 240px;
 }
 
+.cur {
+    font-size: 28px;
+    color: #ffa500;
+}
+
+.image img {
+    width: 240px;
+    margin: 0;
+}
+
+/* footer */
+.subscribe {
+    display: grid;
+    place-items: center;
+}
+
+.form{
+    display: flex;
+    gap: 20px;
+}
+input[type="text"] {
+    padding: 0.5rem 0.75rem;
+    width: 250px;
+    border: 1px solid #eae6e6cc;
+}
+input[type="text"]:focus{
+outline: 2px solid #ffa500;
+}
+/* footer container */
+.footer_container{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin: 40px;
+}
+
+.about{
+    width: 200px;
+}
+
+
+li{
+    margin-bottom: 15px;
+}
