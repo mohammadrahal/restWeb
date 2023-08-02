@@ -73,6 +73,13 @@ picture {
     display: flex;
     gap: 20px;
 }
+button{
+    padding: 0.5rem 0.75rem;
+    background-color: #ffa500;
+    border: none;
+    color: #ffff;
+    
+}
 input[type="text"] {
     padding: 0.5rem 0.75rem;
     width: 250px;
