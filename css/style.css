@@ -10,10 +10,15 @@ section {
     /* height: 100vh; */
 }
 
-ul{
+.sub-title {
+    color: #ccc;
+}
+
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: #ffa500;
 }
@@ -69,38 +74,69 @@ picture {
     place-items: center;
 }
 
-.form{
+.form {
     display: flex;
     gap: 20px;
 }
-button{
+
+button {
     padding: 0.5rem 0.75rem;
     background-color: #ffa500;
     border: none;
     color: #ffff;
-    
+
 }
+
 input[type="text"] {
     padding: 0.5rem 0.75rem;
     width: 250px;
     border: 1px solid #eae6e6cc;
 }
-input[type="text"]:focus{
-outline: 2px solid #ffa500;
+
+input[type="text"]:focus {
+    outline: 2px solid #ffa500;
 }
+
 /* footer container */
-.footer_container{
+.footer_container {
     display: flex;
     gap: 80px;
     justify-content: center;
     margin: 40px;
 }
 
-.about{
+.about {
+    display: grid;
+    grid-template-rows: 40px 70px;
+    padding: 2px;
     width: 200px;
 }
 
 
-li{
+.contact{
+    display: grid;
+    grid-gap: 15px;
+    justify-items: center;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+li {
     margin-bottom: 15px;
+}
+
+.about-icon {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.icon {
+    color: #ffa500;
+}
+
+.copy_right{
+    text-align: center;
 }
