@@ -20,7 +20,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #ffa500;
+    color: #ff8c00;
 }
 
 img,
@@ -33,15 +33,16 @@ picture {
     font-size: 2rem;
     text-align: center;
     position: relative;
-    top: 5px;
+    top: 7px;
+    text-decoration: overline #ff8c00;
 }
 
 /* end */
-.container {
+.container_oueMenu {
     display: grid;
     grid-template-columns: repeat(2, 0fr);
     justify-content: center;
-
+    margin: 10px;
 }
 
 .card {
@@ -60,7 +61,7 @@ picture {
 
 .cur {
     font-size: 28px;
-    color: #ffa500;
+    color: #ff8c00;
 }
 
 .image img {
@@ -81,7 +82,7 @@ picture {
 
 button {
     padding: 0.5rem 0.75rem;
-    background-color: #ffa500;
+    background-color: #ff8c00;
     border: none;
     color: #ffff;
 
@@ -94,7 +95,7 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-    outline: 2px solid #ffa500;
+    outline: 2px solid #ff8c00;
 }
 
 /* footer container */
@@ -134,9 +135,16 @@ li {
 }
 
 .icon {
-    color: #ffa500;
+    color: #ff8c00;
 }
 
 .copy_right{
     text-align: center;
+}
+
+.line{
+    background-color: #f0f0f0;
+    transform: skewY(-3deg);
+    /* transform-origin: top left; */
+    height: 100px;
 }
