@@ -34,11 +34,20 @@ picture {
     text-align: center;
     position: relative;
     top: 7px;
-    text-decoration: overline #ff8c00;
 }
-
+.shape-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shape-line .mini-line{
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #ff8c00;
+}
 /* end */
-.container_oueMenu {
+.container_ouerMenu {
     display: grid;
     grid-template-columns: repeat(2, 0fr);
     justify-content: center;
@@ -57,6 +66,7 @@ picture {
     background-color: #ffff;
     padding: 20px;
     width: 240px;
+    height: 220px;
 }
 
 .cur {
@@ -143,8 +153,9 @@ li {
 }
 
 .line{
-    background-color: #f0f0f0;
-    transform: skewY(-3deg);
-    /* transform-origin: top left; */
-    height: 100px;
+    transform-origin: top left;
+    background-color: #ffff;
+    transform: skewY(-4deg);
+    height: 90px;
+    width: 100%;
 }
