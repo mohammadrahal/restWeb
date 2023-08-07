@@ -5,7 +5,7 @@
 .main-container__header{
     height: 500px;
     width: 100%;
-    background-image: url(../assets/Header/home.jpg);
+    background-image: url(../assets/home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -87,8 +87,12 @@ li{
 .p2{
     transform: skewY(5deg);
     transform-origin: top left;
-    height: 500px;
+    height: 320px;
 }
 .part3__header{
     margin-top: 50px;
+}
+
+.one img{
+    width: 90px;
 }
