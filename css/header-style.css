@@ -5,7 +5,7 @@
 .main-container__header{
     height: 500px;
     width: 100%;
-    background-image: url(../assets/Header/home.jpg);
+    background-image: url(../assets/home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -67,6 +67,8 @@ li{
     background-color: darkorange;
     padding: 20px;
     border-radius: 50%;
+    height: 80px;
+    width: 80px;
 }
 .last-container{
     display: flex;
