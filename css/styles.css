@@ -74,62 +74,8 @@ picture {
     height: 2px;
     background-color: #ff8c00;
 }
-/* <<<<<<< HEAD */
 
 
-.full {
-    background-color: aliceblue;
-    display: flex;
-}
-
-p {
-    font-size: smaller;
-    color: gray;
-}
-
-.right {
-    background-color: white;
-    display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    flex-direction: column;
-    padding: 10px;
-    margin: 10px;
-}
-
-.cook {
-    font-size:x-large;
-    color: rgb(238, 107, 13);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.dish1 {
-    width: 650px;
-    height: 320px;
-}
-
-.dish2 {
-    width: 650px;
-    height: 320px;
-}
-
-.left {
-    background-color: white;
-    display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    flex-direction: column;
-    padding: 10px;
-    margin: 10px;
-}
-
-.button {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    background-color: rgb(238, 107, 13);
-    border: none;
-    padding: 7px;
-    margin-right: 450px;
-}
-/* ======= */
 /* end */
 .container_ourMenu {
     display: grid;
