@@ -6,6 +6,7 @@
 
 section {
     background-color: #cccc;
+    margin-top: 80px;
     /* margin: 0 clamp(4rem, 12vw, 20rem); */
     /* height: 100vh; */
 }
