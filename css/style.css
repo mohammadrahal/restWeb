@@ -1,48 +1,39 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.container {
+    width: fit-content;
+    margin: 0 auto;
+}
+.text {
+    color: black;
+    display: flex;
+    margin-right: 500px;
+    margin-left: 500px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-section {
-    background-color: #cccc;
-    margin-top: 80px;
-    /* margin: 0 clamp(4rem, 12vw, 20rem); */
-    /* height: 100vh; */
+.chef {
+    display: flex;
+    margin-right: 500px;
+    margin-left: 485px;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.sub-title {
-    color: #ccc;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: #ffa500;
-}
-
-img,
-picture {
-    width: 100%;
-}
-
-/* title */
-.menu-title {
-    font-size: 2rem;
+.title {
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: overline rgb(238, 107, 13);
     text-align: center;
     position: relative;
     top: 5px;
 }
 
-/* end */
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 0fr);
-    justify-content: center;
 
+.full {
+    background-color: aliceblue;
+    display: flex;
 }
 
 .card {
@@ -139,5 +130,51 @@ li {
 }
 
 .copy_right{
-    text-align: center;
+    text-align: center;}
+p {
+    font-size: smaller;
+    color: gray;
+}
+
+.right {
+    background-color: white;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cook {
+    font-size:x-large;
+    color: rgb(238, 107, 13);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dish1 {
+    width: 650px;
+    height: 320px;
+}
+
+.dish2 {
+    width: 650px;
+    height: 320px;
+}
+
+.left {
+    background-color: white;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(238, 107, 13);
+    border: none;
+    padding: 7px;
+    margin-right: 450px;
 }
