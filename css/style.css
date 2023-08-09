@@ -2,7 +2,6 @@
     width: fit-content;
     margin: 0 auto;
 }
-
 .text {
     color: black;
     display: flex;
@@ -10,8 +9,8 @@
     margin-left: 500px;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 .chef {
     display: flex;
@@ -23,16 +22,16 @@
 }
 
 .title {
-    text-align: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: overline rgb(238, 107, 13);
+    text-align: center;
 }
-
 
 
 .full {
     background-color: aliceblue;
     display: flex;
-    justify-content:center ;
 }
 
 p {
@@ -43,28 +42,39 @@ p {
 .right {
     background-color: white;
     display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: column;
     padding: 10px;
-    gap: 10px;
+    margin: 10px;
 }
 
 .cook {
-    font-size: x-large;
+    font-size:x-large;
     color: rgb(238, 107, 13);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.dish {
-    width: 100%;
+.dish1 {
+    width: 650px;
     height: 320px;
 }
 
+}
+
+.left {
+    background-color: white;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
 .button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     background-color: rgb(238, 107, 13);
     border: none;
     padding: 7px;
     margin-right: 450px;
 }
-
-/* ======= */
-/* end */

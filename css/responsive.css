@@ -1,0 +1,33 @@
+@media (max-width:700px){
+    .container{
+        justify-content: center;
+        margin: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+    }
+
+    .full {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 0fr);
+    }
+    .title {
+        align-content: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: overline rgb(238, 107, 13);
+        text-align: center;
+    }
+
+    .right {
+        margin: 10px;
+        width: 100%;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .dish {
+        width: 100%;
+    }
+}
