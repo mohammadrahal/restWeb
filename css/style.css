@@ -54,12 +54,7 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.dish1 {
-    width: 650px;
-    height: 320px;
-}
-
-.dish2 {
+.dish {
     width: 650px;
     height: 320px;
 }
