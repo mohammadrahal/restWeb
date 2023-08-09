@@ -158,8 +158,11 @@ li {
     align-items: center;
     gap: 14px;
 }
-
-.iconS {
+.icons{
+    font-size: 24px;
+}
+.icons:hover {
+    cursor: pointer;
     color: #ff8c00;
 }
 
@@ -170,9 +173,8 @@ li {
 .line{
     transform-origin: top left;
     background-color: #ffff;
-    transform: skewY(-3deg);
+    transform: skewY(-2deg);
     margin-top: 150px;
     height: 90px;
     width: 100%;
-/* >>>>>>> master */
 }

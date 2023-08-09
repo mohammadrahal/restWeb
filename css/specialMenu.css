@@ -1,13 +1,15 @@
 /*SPECIAL MENU*/
+.specialMenu{
+  margin-top: 150px;
+}
 .line-specialMenu{
     width:5%;
-    height:1px;
+    height:2px;
     background-color:#f8ab05;
     margin:0 auto;
 }
 .menu-specialMenu{
     text-align:center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:40px;
 }
 .grid-specialMenu{
@@ -22,14 +24,13 @@
   }
   
   .image_container-specialMenu{
-    position: relative; 
     display: flex;
     align-items: center;
     justify-content: center;
     opacity:0.8;
 }
   
-  img{
+.image_container-specialMenu img{
     width: 100%;
     height: auto;
     opacity:0.9;
