@@ -1,0 +1,33 @@
+@media(max-width:700px){
+    
+    .container_ourMenu{
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+        justify-content: center;
+        /* margin: 10px; */
+    }
+
+    .col-2{
+        width: fit-content;
+        block-size: fit-content;
+        /* height: 200px; */
+        /* margin: 10px; */
+    } 
+
+    .image img{
+        width: 200px;
+    }
+ .sub-title,.cur{
+    display: none;
+}
+   .footer_container{
+        display: grid;
+        grid-template-columns: repeat(4, 0fr);
+        justify-content: center;
+
+    }
+
+    .line{
+        width: auto;
+    }
+}
