@@ -1,7 +1,7 @@
 /*SPECIAL MENU*/
 .line-specialMenu{
     width:5%;
-    height:1px;
+    height:2px;
     background-color:#f8ab05;
     margin:0 auto;
 }
@@ -14,7 +14,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-
   }
   
   .item-specialMenu{

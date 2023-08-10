@@ -4,48 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css -->
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/respo.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header-style.css">
     <link rel="stylesheet" href="./css/theresto.css">
-    <link rel="stylesheet" href="./css/specialMenu.css"/>
-    <!-- fontawsome icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/respons.css">
+
+    <!-- end CSS -->
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Restaurant</title>
-   
 </head>
 <body>
-<!-- <<<<<<< HEAD -->
-   
-<!-- ======= -->
-    <!--Header-->
-    <div class="main-container__header">
+      <!--Header-->
+      <div class="main-container__header container">
         <div class="container__header">
         <div class="part1__header">
             <h3 class="logo__header">The Modern Bistro</h3>
+          
         <div class="Menu__header">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#Recipes">Recipes</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#News">News</a></li>
+            <ul class="menu_header" >
+                <li class="navLinks"><a href="#home" class="link__header">Home</a></li>
+                <li><a href="#Recipes" class="link__header">Recipes</a></li>
+                <li><a href="#Services" class="link__header">Services</a></li>
+                <li><a href="#About" class="link__header">About</a></li>
+                <li><a href="#News" class="link__header">News</a></li>
             </ul>
             </div>
             <a class="contact__header" href="#contactus">Contact Us</a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
         </div>
             <h1 class="title__header">Delicious Food</h1>
             <p class="description__header">Where classic flavors meet contemporary flair, experience culinary artistry at its finest </p>
             <div class="btn__header"><button class="get-started-btn">Get started</button></div>
         </div>
         </div>
-        <div class="part2">
-            <div class="p2">
-        <div class="last-container">
-         <div class="one">
+        <div class="part2"></div>
+            <!-- < class="p2"> -->
+        <div class="last-container container">
+         <!-- <div class="resp_1-2"> -->
+            <div class="one">
             <img src="./assets/plate.svg" class="icon">
             <h3 class="header-3">Enjoy eating </h3>
             <p class="slogan">Indulge in the joy of savoring delectable delights.</p>
@@ -64,13 +69,12 @@
             <img src="./assets/meat.svg" class="icon">
             <h3 class="header-3">Meat Eaters</h3>
             <p class="slogan">Meat lovers' haven,relish the juiciest <br>cuts and bold flavors, cooked to perfection.</p>
-        </div>
-        </div>
-    </div> 
+    </div>
+    <!-- </div>  -->
 </div>
 <!-- header end-->
 <!-- the restaurant -->
-<section class="restau-div">
+<section class="restau-div container">
     <div class="shape-line">
         <span class="mini-line"></span>
     </div>
@@ -92,7 +96,9 @@
 </div>
 </section>
 <!-- the restaurant end -->
-<!-- special menu -->
+<!-- specialMenu -->
+<!-- <section class="specialMenu ">
+    <div class="container">
 <div class="line-specialMenu"></div>
     <p class="menu-specialMenu"><strong>SPECIAL MENU</strong></p>
     <div class="grid-specialMenu">
@@ -119,9 +125,12 @@
           </div>
         </div>
       </div>
+    </div>
+    </section> -->
       <!--FIN SPECIAL MENU-->
     <!-- ourMenu -->
     <section id="ourMenu" >
+        <div class="container">
         <div class="line"></div>
         <div class="shape-line">
             <span class="mini-line"></span>
@@ -134,14 +143,16 @@
                         Grilled Caesar salad, shaved reggiano
                     </h2>
                     <p class="sub-title">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas enim deleniti dolor?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas enim deleniti dolor in
+                        similique
+                        consequatur dolores?
                     </p>
                     <p class="cur">
                         $12.00
                     </p>
                 </div>
                 <div class="image">
-                    <img src="./assets/images/menu1.png" alt="picture">
+                    <img src="./assets/menu1.png" alt="picture">
                 </div>
             </div>
             <div class="card">
@@ -150,7 +161,9 @@
                         Bacon wrapped wild gulf prawns
                     </h2>
                     <p class="sub-title">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas enim deleniti dolor?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas enim deleniti dolor in
+                        similique
+                        consequatur dolores?
                     </p>
                     <p class="cur">
                         $18.00
@@ -190,6 +203,7 @@
                     <p class="cur">
                         $12.00
                     </p>
+                    <img src="./assets/menu1.png" alt="picture">
                 </div>
             </div>
             <div class="card">
@@ -198,14 +212,16 @@
                         Seared ahi tuna fillet*, honey-ginger sauce
                     </h2>
                     <p class="sub-title">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas enim deleniti dolor?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas enim deleniti dolor in
+                        similique
+                        consequatur dolores?
                     </p>
                     <p class="cur">
                         $16.00
                     </p>
                 </div>
                 <div class="image">
-                    <img src="./assets/images/menu1.png" alt="picture">
+                    <img src="./assets/menu1.png" alt="picture">
                 </div>
             </div>
             <div class="card">
@@ -214,75 +230,86 @@
                         Grilled Caesar salad, shaved reggiano
                     </h2>
                     <p class="sub-title">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas enim deleniti dolor?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas enim deleniti dolor in
+                        similique
+                        consequatur dolores?
                     </p>
                     <p class="cur">
                         $12.00
                     </p>
                 </div>
                 <div class="image">
-                    <img src="./assets/images/menu2.png" alt="picture">
+                    <img src="./assets/menu1.png" alt="picture">
                 </div>
             </div>
-
             <div class="card">
-                <div class="image">
-                    <img src="./assets/images/menu3.png" alt="picture">
-                </div>
                 <div class="col-2  ">
                     <h2 class="card-title">
                         Grilled Caesar salad, shaved reggiano
                     </h2>
                     <p class="sub-title">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas enim deleniti dolor?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas enim deleniti dolor in
+                        similique
+                        consequatur dolores?
                     </p>
                     <p class="cur">
                         $12.00
                     </p>
                 </div>
-            </div>
-
-            <div class="card">
                 <div class="image">
-                    <img src="./assets/images/menu4.png" alt="picture">
+                    <img src="./assets/menu1.png" alt="picture">
                 </div>
+            </div>
+            <div class="card">
                 <div class="col-2  ">
                     <h2 class="card-title">
                         Grilled Caesar salad, shaved reggiano
                     </h2>
                     <p class="sub-title">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas enim deleniti dolor?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas enim deleniti dolor in
+                        similique
+                        consequatur dolores?
                     </p>
                     <p class="cur">
                         $12.00
                     </p>
+                </div>
+                <div class="image">
+                    <img src="./assets/menu1.png" alt="picture">
                 </div>
             </div>
 
         </div>
+    </div>
     </section>
     <!-- ourmenu end -->
     <div class="container">
-        <h1 class="title">TESTIMONIAL</h1><br>
+    <div class="container-TEST">
+        <div class="test-title">
+        <h1 class="title">TESTIMONIAL</h1>
             <p class="text">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p><br>
-            <img src="./assets/Project_website.jpg" alt="" class="chef"><br><br><br>
+           <div class="chef">
+               <img src="./assets/Project_website.jpg" alt="" >
+           </div>
+        </div>
             <br><h1 class="title">BLOG</h1><br>
             <div class="full">
                 <div class="right">
-                    <img src="./assets/restaurant__image1.jpg" alt="" class="dish1">
+                    <img src="./assets/restaurant__image1.jpg" alt="" class="dish">
                     <p class="cook">How To Cook Pasta?</p>
                         <p class="date">April 22, 2018</p>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                             <button class="button">READ MORE</button>
                 </div>
-                <div class="left">
-                    <img src="./assets/dishes_2.jpg.webp" alt="" class="dish2">
+                <div class="right">
+                    <img src="./assets/dishes_2.jpg.webp" alt="" class="dish">
                     <p class="cook">How To Cook Pasta?</p>
                         <p class="date">April 22, 2018</p>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                             <button class="button">READ MORE</button>
                 </div>
             </div>
+        </div>
     <!-- footer -->
     <footer>
         <!--subscribe -->
@@ -290,9 +317,8 @@
             <h1 class="subr-title">
                 Subscribe Newsletter
             </h1>
-            <p class="sub-title">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis totam esse commodi fugit accusamus
-                laboriosam
+            <p class="subr-sub-title">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis totam esse commodi fugit accusamus.
             </p>
             <div class="form">
                 <input type="text" placeholder="Enter Email Address">
@@ -308,9 +334,7 @@
                 </h2>
                 <p class="sub-title">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa numquam distinctio modi tempora
-                    voluptatem veniam a doloremque maiores deserunt sint officia praesentium rem sequi, libero
-                    accusantium
-                    commodi temporibus?
+                    voluptatem veniam a doloremque maiores deserunt sint officia praesentium rem sequi.
                 </p>
                 
                 <div class="about-icon">
@@ -362,7 +386,7 @@
         <!-- copy right -->
         <div class="copy">
             <div class="copy_right">
-                <p class="sub-title">
+                <p class="sub-title-copy">
                     Copyright ©2023 All rights reserved
                 </p>
             </div>
@@ -370,6 +394,7 @@
     </footer>
     <!-- end -->
 
->>>>>>> master
+        <!-- js -->
+        <script src="./js/app.js"></script>
 </body>
 </html>

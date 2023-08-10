@@ -1,0 +1,120 @@
+@media (max-width:768px){
+    .container-TEST{
+       display: flex;
+       flex-direction: column;
+    }
+    .chef{
+       left: 0;
+       padding: 10px;
+    }
+    .full {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 0fr);
+    }
+    .title {
+        align-content: center;
+        text-decoration: overline rgb(238, 107, 13);
+        text-align: center;
+    }
+
+    .right {
+        margin: 10px;
+        width: 100%;
+    }
+
+    .dish {
+        width: 100%;
+    }
+
+
+    .Menu__header{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: orange;
+        width: 100%;
+        text-align: center;
+    }  
+   
+    
+    
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    .menu_header {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        display: block;
+        background-color: darkorange;
+        width: 100%;
+        text-align: center;
+    
+    }
+    .menu_header.active{
+        left: 0;
+        display: grid;
+    }
+    /* icons*/
+    .last-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center;
+        margin: 10px;
+    }
+    
+    
+    
+
+    .contact__header{
+        background-color: darkorange;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        
+    }
+    .main-container__resto{
+        margin: 0;
+    }
+    .part1__header{
+     display: flex;
+     background-color: darkorange;
+     margin-bottom: 40px;
+    top: 0;
+    }
+    .column__resto{
+        display: flex;
+        row-gap: 0px;
+        column-gap: 2px;
+    }
+    .left-image__resto {
+        height: 300px;
+        width: 300px;
+        flex-direction: row;
+    }
+    .middle-image-top__resto{
+        display: none;
+    } 
+    .middle-image-bottom__resto{
+        display: none;
+    }
+    .right-image__resto{
+        display: none;
+    }
+}
+   

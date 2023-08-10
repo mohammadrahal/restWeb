@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .main-container__header{
     height: 500px;
@@ -37,6 +38,23 @@ li{
     color: white;
     text-decoration: none;
 }
+.link__header{
+    transition: 0.7s ease;
+}
+.link__header:hover{
+    color: darkorange;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: white;
+}
 .title__header{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -67,6 +85,8 @@ li{
     background-color: darkorange;
     padding: 20px;
     border-radius: 50%;
+    height: 80px;
+    width: 80px;
 }
 .last-container{
     display: flex;
@@ -91,8 +111,4 @@ li{
 }
 .part3__header{
     margin-top: 50px;
-}
-
-.one img{
-    width: 90px;
 }
