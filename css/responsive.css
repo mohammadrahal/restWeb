@@ -1,4 +1,7 @@
-@media (max-width:700px){
+@media (max-width:768px){
+    .container{
+        width: 750px;
+    }
     .container{
         justify-content: center;
         margin: 10px;
@@ -13,7 +16,6 @@
     }
     .title {
         align-content: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-decoration: overline rgb(238, 107, 13);
         text-align: center;
     }
@@ -53,17 +55,11 @@
     
     /* icons*/
     .last-container{
-        display: flex;
-        margin: 10px;
-        align-items: center;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center;
     }
-    .resp_1-2{
-       flex-direction: column;
-    }
-    .resp_3-4{
-        flex-direction: column;
-    }
+
     .contact__header{
         background-color: darkorange;
         color: white;
