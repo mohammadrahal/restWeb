@@ -10,10 +10,8 @@
         text-align: center;
     }  
    
-    /*#burger__header{
-        display: block;
-        width: 25px;
-    }*/
+    
+    
     .hamburger{
         display: block;
     }
@@ -34,16 +32,14 @@
         top: 70px;
         gap: 0;
         display: block;
-        background-color: orange;
+        background-color: darkorange;
         width: 100%;
         text-align: center;
     
-        /*display: block;*/
-        
-       /* background-color: whitesmoke;*/
     }
     .menu_header.active{
         left: 0;
+        display: grid;
     }
     /* icons*/
     .last-container{
