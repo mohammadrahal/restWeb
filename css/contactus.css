@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container__header{
+    height: 500px;
+    width: 100%;
+    background-image: url(../assets/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.part1__header{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 130px;
+    position: relative;
+    top: 50px;
+
+}
+.logo__header{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+li{
+    display: inline;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Menu__header a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.title__header{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 3.5em;
+}
+.description__header{
+    color: rgba(255, 255, 255, 0.797);
+    font-weight: 100;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.btn__header{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.get-started-btn{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.icon{
+    background-color: darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 50%;
+}
+.last-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 70px;
+}
+
+.header-3{
+    color: darkorange;
+}
+
+.part2{
+    background-color: #f0f0f0;
+    transform: skewY(-5deg);
+    transform-origin: top left;
+}
+.p2{
+    transform: skewY(5deg);
+    transform-origin: top left;
+    height: 320px;
+}
+.part3__header{
+    margin-top: 50px;
+}
+
+.one img{
+    width: 90px;
+}
+
+.contact__full {
+    background-image: linear-gradient(to left,#EB9A3B, rgb(255, 236, 198));
+    display: flex;
+    transform: skewY(-5deg);
+    transform-origin: top left;
+}
+
+.left_section {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact__title {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: skewY(5deg);
+    transform-origin: top left;
+    margin-left: 40px;
+    margin-right: 500px;
+}
+
+.contact__content1 {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    transform: skewY(5deg);
+    transform-origin: top left;
+    margin-right: 550px;
+    margin-left: 40px;
+}
+
+.contact__content2 {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-style: normal;
+    transform: skewY(5deg);
+    transform-origin: top left;
+    margin-right: 400px;
+    margin-left: 40px;
+}
+
+.right_section {
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    transform: skewY(5deg);
+    transform-origin: top left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    margin: 30px;
+    margin-right: 800px;
+    margin-left: -80px;
+    margin-bottom: 100px;
+    padding: 110px;
+
+}
+
+.lets_chat {
+    text-decoration: overline rgb(238, 107, 13);
+    padding-bottom: 80px;
+    padding-left: 80px;
+}
+
+.text_message {
+    size: 50px;
+}
+
+.submit_button {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background-color: darkorange;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.footer_container {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin: 40px;
+}
+
+.about {
+    display: grid;
+    grid-template-rows: 40px 70px;
+    padding: 2px;
+    width: 200px;
+}
+
+
+.contact{
+    display: grid;
+    grid-gap: 15px;
+    justify-items: center;
+}
+
+.link_list {
+    display: grid;
+    margin-top: 10px;
+}
+
+li { 
+    margin-bottom: 15px;
+}
+
+.about-icon {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.copy_right{
+    text-align: center;
+}
+
+.line{
+    transform-origin: top left;
+    background-color: #ffff;
+    transform: skewY(-4deg);
+    margin-top: 150px;
+    height: 90px;
+    width: 100%;
+/* >>>>>>> master */
+}
