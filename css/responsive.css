@@ -1,4 +1,7 @@
-@media (max-width:768px){
+/* @media (max-width:768px){
+
+} */
+@media (min-device-width: 481px) and (max-device-width: 768px){
     .container-TEST{
        display: flex;
        flex-direction: column;

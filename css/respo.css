@@ -1,4 +1,4 @@
-@media(max-width: 768px){
+@media(min-device-width: 481px) and (max-device-width: 768px){
     /* .container{
         width: 750px;
     } */
