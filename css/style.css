@@ -1,72 +1,23 @@
-<<<<<<< HEAD
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-section {
-    background-color: #cccc;
-    margin-top: 80px;
-    /* margin: 0 clamp(4rem, 12vw, 20rem); */
-    /* height: 100vh; */
-}
-
-.sub-title {
-    color: #ccc;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: #ffa500;
-}
-
-img,
-picture {
-    width: 100%;
-}
-
-/* title */
-.menu-title {
-    font-size: 2rem;
-    text-align: center;
-    position: relative;
-    top: 5px;
-}
-
-/* end */
-=======
->>>>>>> 0d5902b68d2e706d9be53500a6d16be9572c4801
-.container {
-    width: fit-content;
-    margin: 0 auto;
-}
-.text {
+.test-title {
     color: black;
-    display: flex;
-    margin-right: 500px;
-    margin-left: 500px;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    place-content: center;
 }
+
 
 .chef {
-    display: flex;
-    margin-right: 500px;
-    margin-left: 485px;
+   position: relative;
+   left: 300px;
+   top: 0;
+   bottom: 0;
+}
+.chef img{
     width: 200px;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .title {
     align-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: overline rgb(238, 107, 13);
     text-align: center;
 }
@@ -76,102 +27,6 @@ picture {
     background-color: aliceblue;
     display: flex;
 }
-
-.card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* margin: 0; */
-}
-
-.col-2 {
-    display: block;
-    background-color: #ffff;
-    padding: 20px;
-    width: 240px;
-}
-
-.cur {
-    font-size: 28px;
-    color: #ffa500;
-}
-
-.image img {
-    width: 240px;
-    margin: 0;
-}
-
-/* footer */
-.subscribe {
-    display: grid;
-    place-items: center;
-}
-
-.form {
-    display: flex;
-    gap: 20px;
-}
-
-button {
-    padding: 0.5rem 0.75rem;
-    background-color: #ffa500;
-    border: none;
-    color: #ffff;
-
-}
-
-input[type="text"] {
-    padding: 0.5rem 0.75rem;
-    width: 250px;
-    border: 1px solid #eae6e6cc;
-}
-
-input[type="text"]:focus {
-    outline: 2px solid #ffa500;
-}
-
-/* footer container */
-.footer_container {
-    display: flex;
-    gap: 80px;
-    justify-content: center;
-    margin: 40px;
-}
-
-.about {
-    display: grid;
-    grid-template-rows: 40px 70px;
-    padding: 2px;
-    width: 200px;
-}
-
-
-.contact{
-    display: grid;
-    grid-gap: 15px;
-    justify-items: center;
-}
-
-.links {
-    margin-top: 10px;
-}
-
-li {
-    margin-bottom: 15px;
-}
-
-.about-icon {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-}
-
-.icon {
-    color: #ffa500;
-}
-
-.copy_right{
-    text-align: center;}
 p {
     font-size: smaller;
     color: gray;
@@ -180,7 +35,6 @@ p {
 .right {
     background-color: white;
     display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: column;
     padding: 10px;
     margin: 10px;
@@ -189,25 +43,14 @@ p {
 .cook {
     font-size:x-large;
     color: rgb(238, 107, 13);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.dish1 {
-    width: 650px;
+.dish {
+    width: 100%;
     height: 320px;
 }
 
-.left {
-    background-color: white;
-    display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    flex-direction: column;
-    padding: 10px;
-    margin: 10px;
-}
-
 .button {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     background-color: rgb(238, 107, 13);
     border: none;

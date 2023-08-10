@@ -1,10 +1,13 @@
-@media(max-width:700px){
-    
+@media(max-width: 768px){
+    /* .container{
+        width: 750px;
+    } */
+
     .container_ourMenu{
         display: grid;
         grid-template-columns: repeat(1, 0fr);
-        justify-content: center;
-        /* margin: 10px; */
+       place-content: center;
+    
     }
 
     .col-2{
