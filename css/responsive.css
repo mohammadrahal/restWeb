@@ -1,14 +1,12 @@
 @media (max-width:768px){
-    .container{
-        width: 750px;
+    .container-TEST{
+       display: flex;
+       flex-direction: column;
     }
-    .container{
-        justify-content: center;
-        margin: 10px;
-        display: grid;
-        grid-template-columns: repeat(1, 0fr);
+    .chef{
+       left: 0;
+       padding: 10px;
     }
-
     .full {
         display: grid;
         justify-content: center;
@@ -22,10 +20,6 @@
 
     .right {
         margin: 10px;
-        width: 100%;
-    }
-
-    .left {
         width: 100%;
     }
 
@@ -46,18 +40,13 @@
     
     }
   
- 
 
-    
-
-    
-    
-    
     /* icons*/
     .last-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         place-items: center;
+        margin: 10px;
     }
 
     .contact__header{
