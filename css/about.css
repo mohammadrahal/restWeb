@@ -1,0 +1,9 @@
+.about-us{
+    text-align: center;
+    justify-content: center;
+}
+.section1__about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
