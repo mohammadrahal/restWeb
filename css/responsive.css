@@ -1,7 +1,5 @@
-/* @media (max-width:768px){
+ @media (max-width:800px){
 
-} */
-@media (min-device-width: 481px) and (max-device-width: 768px){
     .container-TEST{
        display: flex;
        flex-direction: column;
@@ -11,39 +9,59 @@
        padding: 10px;
     }
     .full {
-        display: grid;
-        justify-content: center;
-        grid-template-columns: repeat(1, 0fr);
+       display: flex;
+       flex-direction: column;
     }
     .title {
         align-content: center;
-        text-decoration: overline rgb(238, 107, 13);
+        text-decoration: overline #ee6b0d;
         text-align: center;
     }
 
     .right {
         margin: 10px;
-        width: 100%;
+        /* width: 100%; */
     }
 
-    .dish {
+    /* .dish {
         width: 100%;
-    }
+    } */
 
 
-    .Menu__header{
-        display: none;
-    }  
-    .Menu__header{
-        width: 100%;
-        height: 100%;
+    .Menu__header, .contact__header{
         position: fixed;
-        background-color: var(--black);
-        overflow: hidden;
+        left: -100%;
+        top: 70px;
+    }  
+   
     
+    
+    .hamburger{
+        display: block;
     }
-  
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
 
+
+    .menu_header ,.contact__header{
+        position: fixed;
+        gap: 0;
+        background-color: #ff8c00;
+        width: 100%;
+        text-align: center;
+    }
+    .menu_header.active{
+        left: 0;
+        display: grid;
+        top: 29px;
+    }
     /* icons*/
     .last-container{
         display: grid;
@@ -51,11 +69,15 @@
         place-items: center;
         margin: 10px;
     }
+    
+    li{
+        margin: 10px;
+    }
+    
 
     .contact__header{
-        background-color: darkorange;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ff8c00;
+        color: #ffffff;
         text-align: center;
         
     }
@@ -63,11 +85,16 @@
         margin: 0;
     }
     .part1__header{
-     display: flex;
-     background-color: darkorange;
-     margin-bottom: 40px;
-    top: 0;
+        display: flex;
+        background-color: #ff8c00;
+        /* margin-bottom: 40px; */
+        top: 0;
+        align-items: center;
     }
+.logo__header{
+    margin:1px;
+}
+
     .column__resto{
         display: flex;
         row-gap: 0px;
@@ -87,5 +114,15 @@
     .right-image__resto{
         display: none;
     }
-}
+
+    
+      
+      /* .images img  {
+        scroll-snap-align: center;
+        display: inline-block;
+        border-radius: 3px;
+        font-size: 0;
+      } */
+      
+    }
    

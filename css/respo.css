@@ -1,7 +1,4 @@
-@media(min-device-width: 481px) and (max-device-width: 768px){
-    /* .container{
-        width: 750px;
-    } */
+@media(min-device-width: 200px) and (max-device-width: 800px){
 
     .container_ourMenu{
         display: grid;

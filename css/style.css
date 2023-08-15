@@ -1,4 +1,6 @@
-
+.TESTIMONIAL{
+    margin-top: 250px;
+}
 .test-title {
     color: black;
     display: grid;
@@ -26,6 +28,7 @@
 .full {
     background-color: aliceblue;
     display: flex;
+    justify-content: center;
 }
 p {
     font-size: smaller;
@@ -36,12 +39,16 @@ p {
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
     padding: 10px;
     margin: 10px;
+    gap: 7px;
+    
 }
 
 .cook {
-    font-size:x-large;
+    font-size:15px;
     color: rgb(238, 107, 13);
 }
 
@@ -55,5 +62,4 @@ p {
     background-color: rgb(238, 107, 13);
     border: none;
     padding: 7px;
-    margin-right: 450px;
 }
