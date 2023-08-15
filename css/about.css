@@ -5,5 +5,35 @@
 .section1__about{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.text__about{
+    text-align: justify;
+}
+.shape-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shape-line .mini-line {
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #ff8c00;
+}
+
+
+
+@media (max-width:768px){
+    .section1__about{
+        flex-direction: column;
+    }
+    .text__about{
+        justify-content: center;
+        margin:  10px;
+    }
+    .map__about{
+        justify-content: center;
+    }
 }
