@@ -129,6 +129,7 @@ li{
     margin-left: 40px;
     margin-right: 500px;
 }
+
 .contact__content {
     color: gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -140,8 +141,6 @@ li{
     margin-right: 550px;
     margin-left: 40px;
 }
-
-
 
 .contact__content1 {
     color: gray;
@@ -241,7 +240,30 @@ li{
     justify-items: center;
 }
 
+.quik-list {
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: grid;
+    /* margin-block-end: 1em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+.link-title {
+    text-decoration: none;
+    display: grid;
+    /* margin-block-end: 1em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
 .link_list {
+    text-decoration: none;
     display: grid;
     margin-top: 10px;
 }
@@ -278,11 +300,17 @@ li {
     transform-origin: top left;
     background-color: #ffff;
     transform: skewY(-4deg);
-    margin-top: 150px;
-    height: 90px;
-    width: 100%;
-/* >>>>>>> master */
+    display: grid;
+    margin-top: 10px;
+    /* display: block; */
+    margin-block-start: 1em;
+    /* margin-block-end: 1em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    align-content: space-between;
+    justify-content: space-around;
 }
+/* >>>>>>> master */
 
 input[type=text],
 input[type=email]{
