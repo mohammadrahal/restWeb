@@ -1,4 +1,5 @@
-@media (max-width:768px){
+@media (max-width:800px){
+
     .container-TEST{
        display: flex;
        flex-direction: column;
@@ -8,35 +9,29 @@
        padding: 10px;
     }
     .full {
-        display: grid;
-        justify-content: center;
-        grid-template-columns: repeat(1, 0fr);
+       display: flex;
+       flex-direction: column;
     }
     .title {
         align-content: center;
-        text-decoration: overline rgb(238, 107, 13);
+        text-decoration: overline #ee6b0d;
         text-align: center;
     }
 
     .right {
         margin: 10px;
-        width: 100%;
+        /* width: 100%; */
     }
 
-    .dish {
+    /* .dish {
         width: 100%;
-    }
+    } */
 
 
-    .Menu__header{
+    .Menu__header, .contact__header{
         position: fixed;
         left: -100%;
         top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: orange;
-        width: 100%;
-        text-align: center;
     }  
    
     
@@ -55,20 +50,17 @@
     }
 
 
-    .menu_header {
+    .menu_header ,.contact__header{
         position: fixed;
-        left: -100%;
-        top: 70px;
         gap: 0;
-        display: block;
-        background-color: darkorange;
+        background-color: #ff8c00;
         width: 100%;
         text-align: center;
-    
     }
     .menu_header.active{
         left: 0;
         display: grid;
+        top: 29px;
     }
     /* icons*/
     .last-container{
@@ -78,13 +70,14 @@
         margin: 10px;
     }
     
-    
+    li{
+        margin: 10px;
+    }
     
 
     .contact__header{
-        background-color: darkorange;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ff8c00;
+        color: #ffffff;
         text-align: center;
         
     }
@@ -92,11 +85,16 @@
         margin: 0;
     }
     .part1__header{
-     display: flex;
-     background-color: darkorange;
-     margin-bottom: 40px;
-    top: 0;
+        display: flex;
+        background-color: #ff8c00;
+        /* margin-bottom: 40px; */
+        top: 0;
+        align-items: center;
     }
+.logo__header{
+    margin:1px;
+}
+
     .column__resto{
         display: flex;
         row-gap: 0px;
@@ -116,5 +114,15 @@
     .right-image__resto{
         display: none;
     }
-}
+
+    
+      
+      /* .images img  {
+        scroll-snap-align: center;
+        display: inline-block;
+        border-radius: 3px;
+        font-size: 0;
+      } */
+      
+    }
    

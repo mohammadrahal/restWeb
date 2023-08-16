@@ -1,3 +1,5 @@
+
+/* about map*/
 .about-us{
     text-align: center;
     justify-content: center;
@@ -22,6 +24,89 @@
     height: 2px;
     background-color: #ff8c00;
 }
+.center-line {
+    width:5%;
+    height:2px;
+    background-color:#ff6600;
+    margin:0 auto;
+  }
+  /*end about map*/
+  /*faq chefs*/
+.faq-part{
+    background: linear-gradient(225deg, darkorange, rgb(244, 221, 190));
+
+  }
+.faq{
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:40px;
+  }
+/*.container-portrait {
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap: 20px;
+  }
+.image-portrait {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+*/
+.container-portrait {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+  .image-portrait {
+   
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    
+  }
+  .profile {
+    height: 320px;
+    max-width: 307px;
+  }
+  
+.faq-item {
+    text-align: center;
+  }
+.answer{
+    display: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color:black;
+    text-align: center; 
+    margin-top: 10px;
+    width: 40%;
+  }
+.question-btn{
+    background-color: rgb(255,255,255);
+    width:40%;
+    height:50px;
+    text-align:left;
+    padding:10px;
+    border:none;
+    border: 1px dashed #ff00ea;
+    margin-bottom: 10px;
+}
+.question-btn:focus{
+    outline:none;
+  }
+.question-btn:hover {
+    cursor: pointer;
+    border-style: solid;
+  }
+.icon {
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+  }
+  span{
+    color: black;
+  }
+  
 
 
 
