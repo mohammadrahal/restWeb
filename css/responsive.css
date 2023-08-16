@@ -38,6 +38,7 @@
     
     .hamburger{
         display: block;
+        margin-right: 10px;
     }
     .hamburger.active .bar:nth-child(2){
         opacity: 0;
@@ -92,7 +93,7 @@
         align-items: center;
     }
 .logo__header{
-    margin:1px;
+    margin:auto;
 }
 
     .column__resto{
@@ -114,15 +115,6 @@
     .right-image__resto{
         display: none;
     }
-
-    
-      
-      /* .images img  {
-        scroll-snap-align: center;
-        display: inline-block;
-        border-radius: 3px;
-        font-size: 0;
-      } */
       
     }
    
