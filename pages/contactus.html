@@ -89,14 +89,14 @@
         <h1 class="lets_chat">Let's Chat!</h1><br>
             <form>
                 <p><label class="labels">Name:</label><br>
-                <input type="text"><br><br><br><br></p>
+                <input  type="text" id="name"><br><br><br><br></p>
                 <label class="labels">Email:</label><br>
-                <input type="email"><br><br><br><br>
+                <input type="email" id="email"><br><br><br><br>
                 <label class="labels">Message:</label><br>
-                <textarea rows="5" cols="40"></textarea>
+                <textarea rows="5" cols="40" id="text"></textarea>
             </form>
             <div>
-                <br><button class="submit_button" id="submit">SUBMIT</button>
+                <br><button class="submit_button" id="submit" onclick=" validateform()">SUBMIT</button>
             </div>
     </div>
 </div>
@@ -169,6 +169,7 @@
 </div>
 </footer>
 <!-- end -->
+<script src="../js/validate.js"></script>
 
 </body>
 </html>
