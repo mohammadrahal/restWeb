@@ -42,6 +42,11 @@ ul li{
     color: #ffffff;
     border: 2px solid #ff8c00;
 }
+.contact__header:hover{
+    background: #ff8c00;
+    color: #ffffff;
+    border:2px solid #ffffff ;
+}
 
 .bar{
     display: block;
@@ -93,7 +98,7 @@ ul li{
 }
 
 .header-3{
-    color: darkorange;
+    color: #ff8c00;
 }
 
 .restau-div{
