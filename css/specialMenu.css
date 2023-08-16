@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 .specialMenu{
   margin-top: 250px;
 }
 
-=======
-/*SPECIAL MENU*/
->>>>>>> e9761add1f6f7c2d5cceb1cef1655d54ddcf4c92
 .line-specialMenu{
     width:5%;
     height:2px;
@@ -19,15 +15,9 @@
     margin-top: 15px;
 }
 .grid-specialMenu{
-<<<<<<< HEAD
-   display: flex;
-   gap: 20px;
-   justify-content: center;
-=======
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
->>>>>>> e9761add1f6f7c2d5cceb1cef1655d54ddcf4c92
   }
 
   .item-specialMenu{
@@ -39,10 +29,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
-}
-
-=======
     /*opacity:0.8*/;
 }
   
@@ -52,7 +38,6 @@
     opacity:0.9;
   }
   
->>>>>>> e9761add1f6f7c2d5cceb1cef1655d54ddcf4c92
   .circle-specialMenu{
     position: absolute;
     background-color: #fd5d00;
@@ -66,11 +51,7 @@
     align-items:center;
     justify-content:center;
   }
-<<<<<<< HEAD
-
-=======
   
->>>>>>> e9761add1f6f7c2d5cceb1cef1655d54ddcf4c92
   .text_container-specialMenu{
     position:absolute;
     bottom:200px;
@@ -81,10 +62,6 @@
     color: #fff;
     padding:10px;
     box-sizing:border-box;
-<<<<<<< HEAD
-=======
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
->>>>>>> e9761add1f6f7c2d5cceb1cef1655d54ddcf4c92
   }
   /* .grid-specialMenu {
     padding: 1rem;
