@@ -85,8 +85,7 @@ ul li{
     background-color: #ff8c00;
     padding: 20px;
     border-radius: 50%;
-    height: 80px;
-    width: 80px;
+    width: auto;
 }
 .last-container{
     position: relative;
