@@ -10,14 +10,16 @@
     .col-2{
         width: fit-content;
         block-size: fit-content;
-        /* height: 200px; */
-        /* margin: 10px; */
     } 
 
     .image img{
         width: 200px;
     }
- .sub-title,.cur{
+    .container_ourMenu .sub-title, .cur{
+    display: none;
+}
+
+.about .sub-title{
     display: none;
 }
    .footer_container{

@@ -1,17 +1,38 @@
 const fname = document.getElementById('name');
 const email = document.getElementById('email');
 const submit = document.getElementById('submit');
-const error = document.getElementById('error')
+const errorEl = document.querySelectorAll(".error"); 
+
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 submit.addEventListener('click', () => {
-    // console.log("hello world!")
+    errorEl.forEach(error => {
+        error.textContent = "";
+    });
+
     if (fname.value == null || fname.value == "") {
-        error.textContent= "Name can't be blank";
+        errorEl.forEach(error => {
+            error.textContent = "Name can't be blank";
+        });
+        clear(errorEl, 3000);
         return false;
     }
 
-    if (email.value == null || email.value == "") {
-        error.textContent= "please enter email";
+    if (email.value == null || email.value == "" || !emailRegex.test(email.value)) {
+        errorEl.forEach(error => {
+            error.textContent = "Please enter a valid email";
+        });
+        clear(errorEl, 3000);
         return false;
+    } else {
+        console.log('Form submitted successfully');
     }
-} ); 
+});
+
+function clear(errors, timeout) {
+    setTimeout(() => {
+        errors.forEach(error => {
+            error.textContent = "";
+        });
+    }, timeout);
+}

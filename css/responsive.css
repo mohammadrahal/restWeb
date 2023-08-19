@@ -1,5 +1,7 @@
  @media (max-width:800px){
-
+p{
+    padding: 10px;
+}
     .container-TEST{
        display: flex;
        flex-direction: column;
@@ -65,12 +67,22 @@
     }
     /* icons*/
     .last-container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        place-items: center;
-        margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin: 4px;
+    padding: 10px;
+    bottom: 432px;
     }
-    
+    .last-container p{
+        padding: 0;
+    }
+    .p2{
+        background: #f1f1f1;
+    transform: skewY(-7deg);
+    transform-origin: top left;
+    height: 450px;
+    }
     li{
         margin: 10px;
     }
