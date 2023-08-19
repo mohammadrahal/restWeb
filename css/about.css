@@ -4,11 +4,11 @@
     text-align: center;
     justify-content: center;
 }
-.section1__about{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+#map { 
+  height: 550px;
+  width: 50%;
+ }
+
 .text__about{
     text-align: justify;
 }

@@ -9,17 +9,29 @@
     <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>About us</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+ crossorigin=""></script>
+ <style>
+    #map { height: 550px; }
+ </style>
 </head>
 <body>
       <!--Header-->
-      <header>
-        <div class="main-container__header container">
-            <div class="part1__header">
-                <h3 class="logo__header">The Modern Bistro</h3>
-    <nav>
+<header>
+    <div class="main-container__header container">
+        <div class="part1__header">
+            <h3 class="logo__header">The Modern Bistro</h3>
+            <nav>
                 <div class="Menu__header">
                     <ul class="menu_header">
-                        <li class="navLinks"><a href="#home" class="link__header">Home</a></li>
+                        <li class="navLinks"><a href="./about.html" class="link__header">Home</a></li>
                         <li><a href="#Recipes" class="link__header">Recipes</a></li>
                         <li><a href="#Services" class="link__header">Services</a></li>
                         <li><a href="#About" class="link__header">About</a></li>
@@ -32,43 +44,41 @@
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
-            </div>
+        </div>
         </nav>
-            <div class="header-description">
-                <h1 class="title__header">Delicious Food</h1>
-                <p class="description__header">Where classic flavors meet contemporary flair, experience culinary artistry
-                    at its finest </p>
-                <div class="btn__header"><button class="get-started-btn">Get started</button>
-                </div>
+        <div class="header-description">
+            <h1 class="title__header">Contact Us</h1>
+            <p class="description__header"> </p>
+            <div class="btn__header"><button class="get-started-btn">Get started</button>
             </div>
         </div>
-    
-        <div class="p2"></div>
-        <div class="last-container">
-            <div class="one">
-                <img src="../assets/plate.svg" class="icon">
-                <h3 class="header-3">Enjoy eating </h3>
-                <p class="slogan">Indulge in the joy of savoring delectable delights.</p>
-            </div>
-            <div class="one">
-                <img src="../assets/fish.svg" class="icon">
-                <h3 class="header-3">Fresh sea foods</h3>
-                <p class="slogan">Savor the ocean's bounty with our <br>exquisite selection of fresh seafood.</p>
-            </div>
-            <div class="one">
-                <img src="../assets/coffee.svg" class="icon">
-                <h3 class="header-3">Cup of coffee </h3>
-                <p class="slogan">Experience a perfect moment in every sip.</p>
-            </div>
-            <div class="one">
-                <img src="../assets/meat.svg" class="icon">
-                <h3 class="header-3">Meat Eaters</h3>
-                <p class="slogan">Meat lovers' haven,relish the juiciest <br>cuts and bold flavors, cooked to perfection.
-                </p>
-            </div>
+    </div>
+
+    <div class="p2"></div>
+    <div class="last-container">
+        <div class="one">
+            <img src="../assets/plate.svg" class="icon">
+            <h3 class="header-3">Enjoy eating </h3>
+            <p class="slogan">Indulge in the joy of savoring delectable delights.</p>
         </div>
-    </header>
-        <!-- header end-->
+        <div class="one">
+            <img src="../assets/fish.svg" class="icon">
+            <h3 class="header-3">Fresh sea foods</h3>
+            <p class="slogan">Savor the ocean's bounty with our <br>exquisite selection of fresh seafood.</p>
+        </div>
+        <div class="one">
+            <img src="../assets/coffee.svg" class="icon">
+            <h3 class="header-3">Cup of coffee </h3>
+            <p class="slogan">Experience a perfect moment in every sip.</p>
+        </div>
+        <div class="one">
+            <img src="../assets/meat.svg" class="icon">
+            <h3 class="header-3">Meat Eaters</h3>
+            <p class="slogan">Meat lovers' haven,relish the juiciest <br>cuts and bold flavors, cooked to perfection.
+            </p>
+        </div>
+    </div>
+</header>
 
 <!-- about us-->
 <div class="line"></div>
@@ -78,26 +88,35 @@
 <h1 class="about-us">About Us</h1>
 <div class="section1__about">
 <p class="text__about">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore<br> et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <br>aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br> dolore eu fugiat nulla pariatur.
-     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia<br> deserunt mollit anim id est laborum. <br><br> 
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore<br> et dolore magna aliqua. 
-     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <br>aliquip ex ea commodo consequat. 
-     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br> dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia<br> deserunt mollit anim id est laborum. <br><br> 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore<br> et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <br>aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br> dolore eu fugiat nulla pariatur.
-       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia<br> deserunt mollit anim id est laborum. <br><br> 
-   
+    Welcome to our modern bistro restaurant, where culinary craftsmanship meets contemporary flair. <br>
+    At our establishment, we believe in transforming dining into an exquisite experience that engages 
+    all the senses. <br> Nestled in [Location], our bistro showcases a harmonious blend of elegant ambiance, 
+    delectable cuisine, and exceptional service. <br> <br>
+
+    Our culinary philosophy revolves around celebrating the finest ingredients sourced locally and globally.<br>
+    Our talented chefs artfully craft each dish, combining traditional techniques with innovative twists. <br>
+    From savory starters to indulgent desserts, our menu caters to diverse palates, ensuring there's something for everyone. <br> <br>
+
+    Join us at [Restaurant Name] for a modern bistro experience that transcends ordinary dining. <br>
+    Whether you're a passionate food enthusiast or simply looking to unwind in style, our restaurant promises <br>
+     to deliver a symphony of flavors and aesthetics that linger in your memory long after you've savored the last bite.
 </p>
-<p class="map__about">
-    <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=35.50354778766633%2C33.89024274885724%2C35.
-    50699710845948%2C33.891783487585855&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/
-        #map=19/33.89101/35.50527">View Larger Map</a></small>
-</p>
+<div id="map"> </div>
+<script>
+    let map = L.map('map').setView([33.89045843306141, 35.50522064129898], 30);
+
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+maxZoom: 19,
+attribution: '© OpenStreetMap'
+}).addTo(map);
+
+let marker = L.marker([33.89045843306141, 35.50522064129898]).addTo(map);
+</script>
 </div>
+
+
+
 <!--CHEFS-->
 <div class="portrait">
     <div class="center-line"></div>
@@ -293,5 +312,6 @@
 </footer>
 <!-- end -->
 <script src="../js/app.js"></script>
+
 </body>
 </html>
