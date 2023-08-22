@@ -1,17 +1,38 @@
-
+body{
+    background-image: linear-gradient(to left,#EB9A3B, rgb(255, 236, 198));
+}
 form{
     display: grid;
     grid-gap: 10px;
+    justify-content: center;
+}
+.p-2{
+    background-image: linear-gradient(to left,#EB9A3B, rgb(255, 236, 198));
+    transform: skewy(-2deg);
+    transform-origin: top left;
+    height: 70px;
+}
+.contact-us{
+    margin-top: -140px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
+.lets_chat{
+    text-align: center;
+}
 .contact__full {
-    background-image: linear-gradient(to left,#EB9A3B, rgb(255, 236, 198));
-    display: flex;
-    transform: skewY(-5deg);
-    transform-origin: top left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1rem; 
+    place-items: center;
+    padding: 20px; 
 }
 
 .left_section {
+    padding: 1rem;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -19,10 +40,6 @@ form{
 .contact__title {
     color: black;
     font-size: x-large;
-    transform: skewY(5deg);
-    transform-origin: top left;
-    margin-left: 40px;
-    margin-right: 500px;
 }
 
 .contact__content {
@@ -30,10 +47,6 @@ form{
     font-size: xx-large;
     display: flex;
     flex-direction: column;
-    transform: skewY(5deg);
-    transform-origin: top left;
-    margin-right: 550px;
-    margin-left: 40px;
 }
 
 .contact__content1 {
@@ -41,35 +54,26 @@ form{
     font-size: larger;
     display: flex;
     flex-direction: column;
-    transform: skewY(5deg);
-    transform-origin: top left;
-    margin-right: 550px;
-    margin-left: 40px;
 }
 
 .contact__content2 {
     color: gray;
     font-size: small;
     font-style: normal;
-    transform: skewY(5deg);
-    transform-origin: top left;
-    margin-right: 400px;
-    margin-left: 40px;
 }
 
 .right_section {
     background-color: white;
-    border-radius: 50px;
-    display: flex;
-    transform: skewY(5deg);
-    transform-origin: top left;
-    flex-direction: column;
-    margin: 30px;
-    margin-right: 800px;
-    margin-left: -290px;
-    margin-bottom: 100px;
-    padding: 110px;
-
+    border-radius: 20px; 
+    width: 32rem; 
+    /* height: 36rem; */
+    padding: 3rem; 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
 }
 
 .text_message {
@@ -93,14 +97,11 @@ form{
     border-radius: 50px;
     border-color: white ;
     background-color: #EB9A3B;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-left: 120px;
-    margin-top: 20px;
+  padding-inline:10px ;
 }
-
+footer{
+    background-color: #ffffff;
+}
 .footer_container {
     display: flex;
     gap: 80px;
@@ -158,10 +159,6 @@ li {
     display: flex;
     align-items: center;
     gap: 14px;
-    transform: skewY(5deg);
-    transform-origin: top left;
-    margin-right: 550px;
-    margin-left: 40px;
 }
 
 form
@@ -185,4 +182,8 @@ textarea:focus{
 .error{
     font-size: 20px;
     color:  #ff0000;
+}
+
+#succ{
+    color: #52b009;
 }

@@ -9,6 +9,26 @@ hamburger.addEventListener("click", () => {
 
 })
 
+// 
+document.addEventListener('DOMContentLoaded', () => {
+  const app = document.getElementById('app');
+
+  if (app) { // Check if the element was found
+      window.addEventListener('scroll', () => {
+        console.log("app")
+          const windowHeight = window.innerHeight;
+          const scrollPosition = window.scrollY;
+          const documentHeight = document.documentElement.scrollHeight;
+
+          const scrollPercentage = (scrollPosition / (documentHeight - windowHeight)) * 100;
+
+          app.style.opacity = `${1 - scrollPercentage / 100}`;
+      });
+  }
+});
+
+
+
 
 // const slider = document.querySelector('.grid-specialMenu');
 // let isDown = false;

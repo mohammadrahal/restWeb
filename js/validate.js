@@ -1,8 +1,9 @@
 const fname = document.getElementById('name');
 const email = document.getElementById('email');
+const text = document.getElementById('text');
 const submit = document.getElementById('submit');
 const errorEl = document.querySelectorAll(".error"); 
-
+const succ = document.getElementById('succ')
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 submit.addEventListener('click', () => {
@@ -24,15 +25,24 @@ submit.addEventListener('click', () => {
         });
         clear(errorEl, 3000);
         return false;
-    } else {
-        console.log('Form submitted successfully');
-    }
-});
+    } 
+    
+    if (text.value == null || text.value == "") {
+        errorEl.forEach(error => {
+            error.textContent = "Message can't be empty";
+        });
+        clear(errorEl, 3000);
+        return false;
+    }else {
+        succ.textContent='message send successfully';
+    } 
+});clear(succ, 3000);
 
 function clear(errors, timeout) {
     setTimeout(() => {
         errors.forEach(error => {
             error.textContent = "";
+           
         });
     }, timeout);
 }

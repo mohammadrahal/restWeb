@@ -27,7 +27,7 @@
             <nav>
                 <div class="Menu__header">
                     <ul class="menu_header">
-                        <li class="navLinks"><a href="./about.html" class="link__header">Home</a></li>
+                        <li class="navLinks"><a href="../index.html" class="link__header">Home</a></li>
                         <li><a href="#Recipes" class="link__header">Recipes</a></li>
                         <li><a href="#Services" class="link__header">Services</a></li>
                         <li><a href="#About" class="link__header">About</a></li>
@@ -76,14 +76,14 @@
     </div>
 </header>
 <!-- Contact us container-->
-<div class="contact__full" id="contactus">
+<section class="contact-us">
+    <div class="contact__full" id="contactus">
     <div class="left_section">
-        <h1 class="contact__content">Contact us</h1><br>
+        <h1 class="contact__content">Contact us</h1>
         <p class="contact__title"><b>We'd love to hear from you.<b></p>
         <p class="contact__content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
             do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            aliqua. Ut enim ad minim veniam.</p>
         <ul>
             <li class="contact__content1">Address: street 000, Lebanon</li>
             <li class="contact__content1">Email: info@themodernbistro.com</li>
@@ -105,22 +105,33 @@
         </div>
     </div>
     <div class="right_section">
-        <h1 class="lets_chat">Let's Chat!</h1><br>
+        <div class="shape-line">
+            <span class="mini-line"></span>
+        </div>
+        <h1 class="lets_chat">Let's Chat!</h1>
             <form>
                 <label class="labels">Name:</label>
                 <input  type="text" id="name">
-                <span class="error"></span>
+                <!-- <span class="error"></span> -->
                 <label class="labels">Email:</label>
                 <input type="email" id="email">
-                <span class="errore"></span>
-                <label class="labels">Message:</label><br>
+                <!-- <span class="error"></span> -->
+                <label class="labels">Message:</label>
                 <textarea rows="5" cols="40" id="text"></textarea>
+                <span class="error"></span>
+                <div id="succ"></div>
             </form>
             <div class="btn">
                 <button class="submit_button" id="submit">SUBMIT</button>
             </div>
     </div>
 </div>
+
+</section>
+
+<!-- footer -->
+<footer>
+    <div class="p-2"></div>
 <div class="footer_container">
     <!-- about -->
     <div class="about">
