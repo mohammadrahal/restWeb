@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../css/header-style.css">
     <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>About us</title>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -18,12 +21,10 @@
  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
  crossorigin=""></script>
- <style>
-    #map { height: 550px; }
- </style>
 </head>
 <body>
       <!--Header-->
+<div id="app"></div>
 <header>
     <div class="main-container__header container">
         <div class="part1__header">
@@ -31,14 +32,14 @@
             <nav>
                 <div class="Menu__header">
                     <ul class="menu_header">
-                        <li class="navLinks"><a href="./about.html" class="link__header">Home</a></li>
+                        <li class="navLinks"><a href="../index.html" class="link__header">Home</a></li>
                         <li><a href="#Recipes" class="link__header">Recipes</a></li>
                         <li><a href="#Services" class="link__header">Services</a></li>
-                        <li><a href="#About" class="link__header">About</a></li>
+                        <li><a href="./about.html" class="link__header">About</a></li>
                         <li><a href="#News" class="link__header">News</a></li>
                     </ul>
                 </div>
-                <a class="contact__header" href="#contactus">Contact Us</a>
+                <a class="contact__header" href="./contact.html">Contact Us</a>
                 <div class="hamburger">
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -47,8 +48,7 @@
         </div>
         </nav>
         <div class="header-description">
-            <h1 class="title__header">Contact Us</h1>
-            <p class="description__header"> </p>
+            <h1 class="title__header">About us</h1>
             <div class="btn__header"><button class="get-started-btn">Get started</button>
             </div>
         </div>
@@ -79,44 +79,9 @@
         </div>
     </div>
 </header>
+<!-- header end-->
 
 <!-- about us-->
-<div class="line"></div>
-<div class="shape-line">
-    <span class="mini-line"></span>
-</div>
-<h1 class="about-us">About Us</h1>
-<div class="section1__about">
-<p class="text__about">
-    Welcome to our modern bistro restaurant, where culinary craftsmanship meets contemporary flair. <br>
-    At our establishment, we believe in transforming dining into an exquisite experience that engages 
-    all the senses. <br> Nestled in [Location], our bistro showcases a harmonious blend of elegant ambiance, 
-    delectable cuisine, and exceptional service. <br> <br>
-
-    Our culinary philosophy revolves around celebrating the finest ingredients sourced locally and globally.<br>
-    Our talented chefs artfully craft each dish, combining traditional techniques with innovative twists. <br>
-    From savory starters to indulgent desserts, our menu caters to diverse palates, ensuring there's something for everyone. <br> <br>
-
-    Join us at [Restaurant Name] for a modern bistro experience that transcends ordinary dining. <br>
-    Whether you're a passionate food enthusiast or simply looking to unwind in style, our restaurant promises <br>
-     to deliver a symphony of flavors and aesthetics that linger in your memory long after you've savored the last bite.
-</p>
-<div id="map"> </div>
-<script>
-    let map = L.map('map').setView([33.89045843306141, 35.50522064129898], 30);
-
-
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-maxZoom: 19,
-attribution: '© OpenStreetMap'
-}).addTo(map);
-
-let marker = L.marker([33.89045843306141, 35.50522064129898]).addTo(map);
-</script>
-</div>
-
-
-
 <!--CHEFS-->
 <div class="portrait">
     <div class="center-line"></div>
@@ -124,13 +89,13 @@ let marker = L.marker([33.89045843306141, 35.50522064129898]).addTo(map);
     <div class="container-portrait">
         
             <div class="image-portrait">
-                <img class="profile" src="../assets/Joya-min.jpg" alt="Joya">
+                <img class="profile" src="../assets/joya.png" alt="Joya">
                 <p style="color:orange"><strong>Joya Abou Jaoude</strong></p>
                 
                 <p>Head chef</p>
             </div>
             <div class="image-portrait">
-                 <img class="profile"  src="../assets/mohamad safa.jpg" alt="mhmd-s">
+                 <img class="profile"  src="../assets/mhmd s.png" alt="mhmd-s">
                  <p style="color:orange"><strong>Mohammad Safa</strong></p>
                 
                 <p>Pastry Chef</p>
@@ -141,14 +106,14 @@ let marker = L.marker([33.89045843306141, 35.50522064129898]).addTo(map);
 
         
                <div class="image-portrait">
-                <img class="profile" src="../assets/Fatima awdehh.jpg" alt="fatima">
+                <img class="profile" src="../assets/fatima.png" alt="fatima">
                 <p style="color:orange"><strong>Fatima Awdeh</strong></p>
                 
                 <p>Sous Chef</p>
             </div>  
               <div class="image-portrait">
               
-                <img class="profile"  src="../assets/mohamad rahal.jpg" alt="mhmd-r">
+                <img class="profile"  src="../assets/mhmd r.png" alt="mhmd-r">
                 <p style="color:orange"><strong>Mohammad rahal</strong></p>
               
                 <p>Tasting</p>
@@ -158,6 +123,31 @@ let marker = L.marker([33.89045843306141, 35.50522064129898]).addTo(map);
     </div>>
 </div>
 <!--END-->
+<div class="line"></div>
+<div class="shape-line">
+    <span class="mini-line"></span>
+</div>
+<h1 class="about-us">About Us</h1>
+<div class="section1__about">
+<p class="text__about">
+    Welcome to our modern bistro restaurant, where culinary craftsmanship meets contemporary flair. 
+    At our establishment, we believe in transforming dining into an exquisite experience that engages 
+    all the senses. Nestled in [Location], our bistro showcases a harmonious blend of elegant ambiance, 
+    delectable cuisine, and exceptional service. <br> <br>
+
+    Our culinary philosophy revolves around celebrating the finest ingredients sourced locally and globally.
+    Our talented chefs artfully craft each dish, combining traditional techniques with innovative twists. 
+    From savory starters to indulgent desserts, our menu caters to diverse palates, ensuring there's something for everyone. <br> <br>
+
+    Join us at The modern bistro for a modern bistro experience that transcends ordinary dining. 
+    Whether you're a passionate food enthusiast or simply looking to unwind in style, our restaurant promises 
+     to deliver a symphony of flavors and aesthetics that linger in your memory long after you've savored the last bite.
+</p>
+<div id="map"> </div>
+</div>
+
+
+
 
 
 <!--FAQ-->
@@ -286,17 +276,17 @@ let marker = L.marker([33.89045843306141, 35.50522064129898]).addTo(map);
             <p class="number">Phone Number:</p>
             <p class="sub-title">+1 242 4942290</p>
             <p class="email">Email:</p>
-            <p class="sub-title">info@gamil.com</p>
+            <p class="sub-title">info@gmail.com</p>
         </div>
         <!-- end contact -->
         <!-- quick links -->
-        <div class="quik-links">
+        <div class="quick-links">
             <h2 class="link-title">Quick links</h2>
             <ul class="link_list">
-                <li class="quik-list"> <a href="#">About</a></li>
-                <li class="quik-list"> <a href="#">Terms of Use </a></li>
-                <li class="quik-list"> <a href="#">Disclaimers</a></li>
-                <li class="quik-list"> <a href="#">Contact</a></li>
+                <li class="quick-list"> <a href="./about.html">About</a></li>
+                <li class="quick-list"> <a href="#">Terms of Use </a></li>
+                <li class="quick-list"> <a href="#">Disclaimers</a></li>
+                <li class="quick-list"> <a href="./pages/contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -312,6 +302,7 @@ let marker = L.marker([33.89045843306141, 35.50522064129898]).addTo(map);
 </footer>
 <!-- end -->
 <script src="../js/app.js"></script>
+<script src="./js/respo.js"></script>
 
 </body>
 </html>

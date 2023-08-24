@@ -5,12 +5,16 @@
     justify-content: center;
 }
 #map { 
-  height: 550px;
-  width: 50%;
+  height: 450px;
+  width: 40%;
  }
-
+.section1__about{
+  display: flex;
+  align-items: center;
+}
 .text__about{
-    text-align: justify;
+    width: 60%;
+    padding: 20px;
 }
 .shape-line {
     display: flex;
@@ -41,21 +45,12 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:40px;
   }
-/*.container-portrait {
-    display: grid;
-    grid-template-columns:repeat(4,1fr);
-    grid-gap: 20px;
-  }
-.image-portrait {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-*/
+
 .container-portrait {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    gap: 40px;
 }
 
   .image-portrait {
@@ -67,6 +62,7 @@
   .profile {
     height: 320px;
     max-width: 307px;
+    border-radius: 15%;
   }
   
 .faq-item {
@@ -98,11 +94,7 @@
     cursor: pointer;
     border-style: solid;
   }
-.icon {
-    font-size: 40px;
-    width: 40px;
-    height: 40px;
-  }
+
   span{
     color: black;
   }
@@ -110,15 +102,11 @@
 
 
 
-@media (max-width:768px){
+@media (max-width:800px){
     .section1__about{
         flex-direction: column;
     }
-    .text__about{
-        justify-content: center;
-        margin:  10px;
+    #map{
+      width: 80%;
     }
-    .map__about{
-        justify-content: center;
-    }
-}
+  }

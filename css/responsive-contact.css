@@ -1,0 +1,16 @@
+@media (max-width:800px){
+  
+    .contact__full{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    } 
+    
+    .right_section{
+        width: 25rem;
+        padding: 1rem;
+    }
+    
+    }

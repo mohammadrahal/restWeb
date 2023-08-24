@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rating__home{
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rating_heading{
+    color: rgb(0, 0, 0);
+}
+.star_rating{
+    user-select: none;
+    background-color: darkorange;
+    padding: 22px 35px;
+    margin: 25px;
+    border-radius: 10px;
+}
+.star{
+    font-size: 3rem;
+    color: #ffffff;
+    background-color: unset;
+    border: none;
+
+}
+.star:hover{
+    cursor: pointer;
+}

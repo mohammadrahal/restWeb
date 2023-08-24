@@ -1,6 +1,6 @@
 .divider__resto{
     width: 8%;
-    background-color: darkorange;
+    background-color: #ff8c00;
     height: 2px;
     border-width: 0;
 }
@@ -14,7 +14,7 @@
     margin-top: 10px;
 }
 .main-container__resto p{
-    color: grey;
+    color: #808080;
     text-align: center;
     margin-bottom: 40px;
 }
