@@ -1,4 +1,7 @@
-@media(max-device-width: 700px) {
+@media(max-device-width: 800px) {
+    .ourMenu{
+        margin-top: 0;
+    }
     .footer_container{
         display: grid;
     grid-template-columns: repeat(2, -1fr);
@@ -13,6 +16,9 @@
 .subscribe .form{
     display: flex;
     flex-direction: column;
+}
+.shape-line{
+    margin: 10px;
 }
 }
 

@@ -1,5 +1,8 @@
 @media (max-width:800px){
-  
+    .title__header{
+        font-size: 2.5em;
+    }
+
 .contact__full{
     display: flex;
     flex-direction: column;
@@ -8,9 +11,25 @@
     gap: 30px;
 } 
 
-.right_section{
-    width: 25rem;
+.right_section {
+    width: 20rem;
+    height: 30rem;
     padding: 1rem;
+
 }
 
+form{
+    grid-gap: 18px;
+   
+}
+
+form input[type=text], input[type=email] {
+    width: 288.5px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #eae6e6cc;
+}
+.contact__content{
+    text-align: center;
+    color: #ffff;
+}
 }

@@ -151,6 +151,7 @@ input[type="text"]:focus {
 .link_list {
     display: grid;
     margin-top: 10px;
+    place-items: center;
 }
 
 li {
@@ -207,9 +208,9 @@ li {
   }
   
 .fade-left{
-    animation-duration: 5s;
-    animation-fill-mode: both;
-    animation-name: fadeInLeft;
+    animation-duration: 5s both fadeInLeft;
+    /* animation-fill-mode: ;
+    animation-name: ; */
 }
 
   @keyframes fadeInLeft {

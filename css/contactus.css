@@ -92,21 +92,13 @@ form{
 }
 
 .submit_button {
-    text-align: center;
-    font-size: 21px;
-    border-radius: 50px;
-    border-color: white ;
-    background-color: #EB9A3B;
-  padding-inline:10px ;
+    padding: 0.5rem 0.75rem;
+    background-color: #ff8c00;
+    border: none;
+    color: #ffff;
 }
 footer{
     background-color: #ffffff;
-}
-.footer_container {
-    display: flex;
-    gap: 80px;
-    justify-content: center;
-    margin: 40px;
 }
 
 .about-icon2 {
@@ -116,44 +108,6 @@ footer{
     padding-top: 60px;
 }
 
-
-.contact{
-    display: grid;
-    grid-gap: 15px;
-    justify-items: center;
-}
-
-.quik-list {
-    text-decoration: none;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    display: grid;
-    /* margin-block-end: 1em; */
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    align-content: space-between;
-    justify-content: space-around;
-}
-
-.link-title {
-    text-decoration: none;
-    display: grid;
-    /* margin-block-end: 1em; */
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    align-content: space-between;
-    justify-content: space-around;
-}
-
-.link_list {
-    text-decoration: none;
-    display: grid;
-    margin-top: 10px;
-}
-
-li { 
-    margin-bottom: 15px;
-}
 
 .about-icon1 {
     display: flex;
