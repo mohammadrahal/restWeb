@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="user-reviews.js"></script>
+  <link rel="stylesheet" href="user-reviews.css">
+  <title>User Reviews</title>
+  <style>
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>User Reviews</h1>
+  
+  <div id="reviewForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required><br>
+    <br>
+    <label for="rating">Restaurent rating</label><br>
+<div class="rating">
+  <input type="radio" id="star5" name="rating" value="5" required>
+  <label for="star5">★</label>
+  <input type="radio" id="star4" name="rating" value="4">
+  <label for="star4">★</label>
+  <input type="radio" id="star3" name="rating" value="3">
+  <label for="star3">★</label>
+  <input type="radio" id="star2" name="rating" value="2">
+  <label for="star2">★</label>
+  <input type="radio" id="star1" name="rating" value="1">
+  <label for="star1">★</label>
+</div>
+    <br>
+    <br>
+    <label for="comment">Comment:</label>
+    <textarea id="comment" required></textarea>
+    <br>
+    <button onclick="submitReview()">Submit Review</button>
+  </div>
+  
+  <div id="reviews">
+    <!-- User reviews will be displayed here -->
+  </div>
