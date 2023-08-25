@@ -26,33 +26,18 @@ function toggleAnswer(index) {
 
 
 //map
-let map = L.map('map').setView([33.89045843306141, 35.50522064129898], 30);
+// let map = L.map('map').setView([33.89045843306141, 35.50522064129898], 30);
 
 
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '© OpenStreetMap'
-}).addTo(map);
+//         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+//     maxZoom: 19,
+//     attribution: '© OpenStreetMap'
+// }).addTo(map);
 
-let marker = L.marker([33.89045843306141, 35.50522064129898]).addTo(map);
+// let marker = L.marker([33.89045843306141, 35.50522064129898]).addTo(map);
 
-document.addEventListener('DOMContentLoaded', () => {
-  const app = document.getElementById('app');
-
-  if (app) { // Check if the element was found
-      window.addEventListener('scroll', () => {
-        console.log("app")
-          const windowHeight = window.innerHeight;
-          const scrollPosition = window.scrollY;
-          const documentHeight = document.documentElement.scrollHeight;
-
-          const scrollPercentage = (scrollPosition / (documentHeight - windowHeight)) * 100;
-
-          app.style.opacity = `${1 - scrollPercentage / 100}`;
-      });
-  }
-});
-
+// document.addEventListener('DOMContentLoaded', () => {
+//   const app = document.getElementById('app');
 
 
 
@@ -124,3 +109,30 @@ const handleScrollAnimation = () => {
 window.addEventListener("scroll", () => { 
   handleScrollAnimation();
 });
+
+// initial declarations
+let i = 0;
+let images = ["./assets/hero-section.jpg", "./assets/home.jpg"];
+let time = 1000;
+let paused = false;
+
+//slider functionality
+ //slider functionality
+ function handleChange() {
+  if (!paused) {
+      document.getElementById('slide').src = images[i];
+      if (i < images.length - 1) {
+          i++;
+      } else {
+          i = 0;
+      }
+  }
+  // slideshow functionality
+  setTimeout(handleChange, time);
+}
+
+// slideshow pause functionality
+function pause() {
+  paused = !paused;
+}
+window.onload = handleChange;

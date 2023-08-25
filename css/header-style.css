@@ -1,20 +1,21 @@
 
 .main-container__header{
-    height: 500px;
-    width: 100%;
-    background-image: url(../assets/home.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+/* height: 500px;  */
+width: 100%; 
+position: relative;
 }
 .part1__header{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 130px;
-    position: relative;
-    top: 50px;
+    position: absolute;
+    z-index: 1;
+    top: 50px; 
 
+}
+
+#slide{
+    height: 400px;
 }
 .logo__header{
     color: white;
