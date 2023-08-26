@@ -1,61 +1,77 @@
-
-.main-container__header{
-    height: 500px;
+.main-container__header {
     width: 100%;
-    background-image: url(../assets/home.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     position: relative;
+    height: 600px;
 }
-.part1__header{
+
+/* Rest of your existing CSS rules */
+
+
+.part1__header {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 130px;
-    position: relative;
+    position: absolute;
+    z-index: 1;
     top: 50px;
 
 }
-.logo__header{
+
+#slide {
+    height: 600px;
+    position: relative;
+}
+
+.logo__header {
     color: white;
 }
 
-.Menu__header a{
+.Menu__header a {
     color: white;
     text-decoration: none;
 }
-ul li{
+
+ul li {
     transition: 0.7s ease;
     display: inline;
     margin-right: 20px;
 }
-.link__header:hover{
+
+.link__header:hover {
     color: #ff8c00;
 }
-.hamburger{
+
+.hamburger {
     display: none;
     cursor: pointer;
 }
 
-.contact__header{
+.contact__header {
     padding: 6px 8px;
     color: #ffffff;
     border: 2px solid #ff8c00;
 }
-.contact__header:hover{
+
+.contact__header:hover {
     background: #ff8c00;
     color: #ffffff;
-    border:2px solid #ffffff ;
+    border: 2px solid #ffffff;
 }
 
-.bar{
+.bar {
     display: block;
     width: 25px;
     height: 3px;
     margin: 5px auto;
     background-color: white;
 }
-.title__header{
+.header-description{
+    position: relative;
+    z-index: 1;
+    bottom: 400px;
+}
+
+.title__header {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -63,36 +79,40 @@ ul li{
     text-transform: uppercase;
     font-size: 3.5em;
 }
-.description__header{
+
+.description__header {
     color: #ffffffcb;
     font-weight: 100;
     text-align: center;
     font-size: 15px;
 }
-.btn__header{
+
+.btn__header {
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
-.get-started-btn{
+
+.get-started-btn {
     border: 1px solid #ffffff;
     background-color: transparent;
     color: #ffffff;
     padding: 5px;
 }
 
-.get-started-btn:hover{
+.get-started-btn:hover {
     border: 1px solid #ff8c00;
-cursor: pointer;
-} 
+    cursor: pointer;
+}
 
-.icon{
+.icon {
     background-color: #ff8c00;
     padding: 20px;
     border-radius: 50%;
     width: auto;
 }
-.last-container{
+
+.last-container {
     position: relative;
     bottom: 250px;
     display: flex;
@@ -101,25 +121,80 @@ cursor: pointer;
     gap: 30px;
 }
 
-.header-3{
+.header-3 {
     color: #ff8c00;
 }
 
-.restau-div{
+.restau-div {
     margin-top: 10px;
 }
 
-.p2{
+.p2 {
     background: #f1f1f1;
     transform: skewY(-3deg);
     transform-origin: top left;
     height: 300px;
 }
-.part3__header{
+
+.part3__header {
     margin-top: 50px;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
+}
+
+
+
+/* Add bullet styling */
+.bullets-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .bullet {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bullet::before,
+.bullet::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transition: border-color 0.3s ease;
+}
+
+.bullet::before {
+    left: -5px;
+    border-width: 5px 8px 5px 0;
+    border-color: transparent #ccc transparent transparent;
+}
+
+.bullet::after {
+    right: -5px;
+    border-width: 5px 0 5px 8px;
+    border-color: transparent transparent transparent #ccc;
+}
+
+.bullet.active {
+    background-color: #ff8c00;
+}
+
+.bullet.active::before,
+.bullet.active::after {
+    border-color: transparent #ff8c00 transparent transparent;
 }

@@ -208,9 +208,9 @@ li {
   }
   
 .fade-left{
-    animation-duration: 5s both fadeInLeft;
-    /* animation-fill-mode: ;
-    animation-name: ; */
+    animation-duration: 5s  ;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
 }
 
   @keyframes fadeInLeft {
@@ -223,3 +223,26 @@ li {
        transform: translateX(0);
     }
  }
+
+
+ .container-TEST {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    flex: 0 0 100%;
+    display: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.slide:first-child {
+    display: block;
+}
