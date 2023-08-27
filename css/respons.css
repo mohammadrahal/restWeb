@@ -15,7 +15,9 @@
   .active {
     scroll-snap-type: unset;
   }
-  
+  .text_container-specialMenu{
+    bottom: 0;
+  }
   img {
     scroll-snap-align: center;
     display: inline-block;
