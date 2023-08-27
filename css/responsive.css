@@ -156,5 +156,15 @@
      .right-image__resto {
          display: none;
      }
-
+/* about us */
+.container-portrait {
+    grid-template-columns: repeat(1, 1fr);
+}
  }
+
+ @media (max-width: 480px) {
+    .container-portrait {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

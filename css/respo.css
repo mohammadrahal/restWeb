@@ -20,9 +20,12 @@
 .shape-line{
     margin: 10px;
 }
+.line {
+    width: 100%;
+}
 }
 
-@media(min-device-width: 200px) and (max-device-width: 800px){
+@media screen and (max-width: 999px){
 
     .col-2{
         width: fit-content;

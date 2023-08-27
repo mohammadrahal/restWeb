@@ -85,10 +85,11 @@ picture {
     padding: 20px;
     width: 240px;
     height: 220px;
+    max-width: none;
 }
 
 .cur {
-    font-size: 28px;
+    font-size: 1.75rem; 
     color: #ff8c00;
 }
 
